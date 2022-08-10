@@ -1,0 +1,28 @@
+On 6/13/2020 5:30 AM, Philip Bernhart via Cuis-dev wrote:
+> Juan Vuletich via Cuis-dev<cuis-dev@lists.cuis.st>  writes:
+>
+>> People are trying to do OpenScience / ReproducibleResearch with Python
+>> Jupyter Notebooks. We can do much better than that!
+> When you write, that we could do better than that, what would be
+> the better? We can improve on how things are stored (in the image),
+> we can improve a little bit the providing the tools to build the
+> tools part.
+>
+>
+> Cheers,
+> Philip
+
+Online Jupyter Notebooks have many drawbacks. Right now I can say:
+- Bad support for modeling. No support for sharing models across notebooks. As a consequence, no support for model versioning or evolution.
+- Python encourages the use of pre-built, external libraries. Python code is usually just glue code, not models.
+- Python models (if they exist) are not separated from glue code and other accidental complexity.
+- Content is linear, evaluation is, by default, linear.
+- Poor integration with text. Poor text support.
+- Poor support for other kinds of media.
+- Poor / no support for integrating datasets.
+- No support for discussion, evaluation, re-publication.
+
+Jupyter Notebooks are already way worse than what we can do in a Workspace. And when we talk Dynabook, we imagine something way better that a Workspace!
+
+Cheers,
+Juan Vuletich
